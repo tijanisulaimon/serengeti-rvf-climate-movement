@@ -1,6 +1,9 @@
 # Where livestock encounter vectors determines climate-driven Rift Valley fever risk
 
-Code for the paper of the same title.
+Code for the paper of the same title. The livestock movement data come from
+participatory mapping and cannot be shared publicly, so only the climate and
+vegetation stages can be rerun from public inputs (see
+[`docs/DATA_ACCESS.md`](docs/DATA_ACCESS.md)).
 
 **Correspondence**: [tijani@aims.ac.za](mailto:tijani@aims.ac.za)
 

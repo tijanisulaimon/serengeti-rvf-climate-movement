@@ -83,28 +83,14 @@ files identically to 21.0.0.1 (checked October 2026).
 
 ## Inputs that no script downloads
 
-These files must be in place before the stage that reads them. Access routes are
-given in [`DATA_ACCESS.md`](DATA_ACCESS.md).
+Some inputs must be put in place by hand before the stage that reads them.
+[`DATA_ACCESS.md`](DATA_ACCESS.md) lists each file, where it goes and how to
+obtain it. Folder locations are set in `_project_paths.R`.
 
-| File | Location | Read by | Content |
-|---|---|---|---|
-| `Local_movt_Gza_tj.csv` | `data/observed_movements/` | Movement networks | Monthly village-to-village grazing contacts, 2017 participatory mapping |
-| `Local_movt_wp_tj.csv` | `data/observed_movements/` | Movement networks | Monthly village-to-village watering contacts, 2017 participatory mapping |
-| `serengeti village centre xy.csv` | `data/shapefiles/resource_areas/` | Movement networks | Village centre coordinates |
-| `All grazing areas_centroid.shp` | `data/shapefiles/resource_areas/` | Movement networks | Grazing-area centroids |
-| `All water points.shp` | `data/shapefiles/resource_areas/` | Movement networks | Water-point locations |
-| `restricted_site_patterns.txt` | `data/shapefiles/resource_areas/` | Movement networks | Site-name patterns marking sites whose land designation restricts livestock access |
-| `Serengeti and Ngorongoro district shape files.shp` | `data/shapefiles/resource_areas/` | Movement networks, protected areas, maps | Village, ward and district boundaries from the 2012 census |
-| `gadm41_TZA_2_pk.rds` | `data/shapefiles/` | Vegetation | GADM 4.1 Tanzania level-2 boundaries |
-| `serengeti_ele.tif` | `data/elevation/` | Vegetation | Elevation raster for the district |
-
-Folder locations are set in `_project_paths.R`.
-
-The files from the participatory field study cannot be shared publicly (see
-[`DATA_ACCESS.md`](DATA_ACCESS.md)). Without them, the climate and vegetation
-stages run in full. The protected-area step needs the district boundaries, and
-the movement and transmission stages need the movement data, from which their
-inputs are built.
+The files from the participatory field study cannot be shared publicly. Without
+them, the climate and vegetation stages run in full. The protected-area step
+needs the district boundaries, and the movement and transmission stages need the
+movement data, from which their inputs are built.
 
 ## Run order
 
