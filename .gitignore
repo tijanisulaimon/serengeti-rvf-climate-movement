@@ -1,0 +1,36 @@
+# R and RStudio session files
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+# Operating-system files
+.DS_Store
+
+# Python environments and caches, used by the climate downloads
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# renv library, if the project is activated with renv
+renv/library/
+renv/staging/
+
+# Input data, obtained separately as described in docs/DATA_ACCESS.md
+/data/
+
+# Outputs written by each stage when the analysis runs
+analysis/00_climate_download/logs/
+analysis/00_climate_download/outputs/
+analysis/01_ndvi_prediction/derived/
+analysis/01_ndvi_prediction/outputs/
+analysis/02_movement_networks/outputs/
+analysis/03_rvf_transmission/data/processed/
+analysis/03_rvf_transmission/outputs/
+
+# Publication-named figures and tables gathered by build_manuscript_assets.R
+/manuscript/
+
+# Archives
+*.zip
