@@ -905,7 +905,7 @@ p_fold <- ggplot() +
   ) +
   labs(
     x = "Future climate window",
-    y = "Annual infections relative to observed baseline",
+    y = "Annual infections relative to observed-climate baseline",
     colour = "GCM"
   ) +
   theme_rvf(base_size = 13) +
@@ -1177,7 +1177,7 @@ if (all(file.exists(c(profile_aggregate_paths, profile_ensemble_paths)))) {
     ) +
     labs(
       x = "Future climate window",
-      y = "Annual infections relative to observed baseline",
+      y = "Annual infections relative to observed-climate baseline",
       colour = "GCM"
     ) +
     theme_rvf(base_size = 13) +
@@ -1406,7 +1406,7 @@ if (!is_primary_rainfall && is_primary_profile &&
     scale_y_continuous(breaks = 1:8) +
     labs(
       x = "Future climate window",
-      y = "Annual infections relative to observed baseline"
+      y = "Annual infections relative to\nobserved-climate baseline"
     ) +
     theme_rvf(base_size = 13) +
     theme(

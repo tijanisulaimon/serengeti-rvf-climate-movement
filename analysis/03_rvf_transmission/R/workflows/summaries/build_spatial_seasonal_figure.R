@@ -207,7 +207,7 @@ p_current <- ggplot() +
     limits = c(0, current_limit),
     breaks = current_breaks,
     labels = scales::label_number(accuracy = 1),
-    name = "Observed annual infections per 1,000 cattle"
+    name = "Simulated annual infections per 1,000 cattle"
   ) +
   coord_sf(crs = 32736, datum = NA) +
   labs(title = "Observed climate", x = NULL, y = NULL) +
@@ -272,7 +272,7 @@ p_future <- ggplot() +
     limits = c(0, change_limit),
     breaks = change_breaks,
     labels = scales::label_number(accuracy = 1),
-    name = "Change from observed (per 1,000 cattle)"
+    name = "Increase from observed-climate baseline (per 1,000 cattle)"
   ) +
   coord_sf(crs = 32736, datum = NA) +
   labs(x = NULL, y = NULL) +
@@ -304,7 +304,7 @@ profile_labels <- c(
   peridomestic_dominant = "Village-associated exposure"
 )
 time_levels <- c(
-  "Observed",
+  "Observed climate",
   vapply(
     cfg$future_windows,
     function(years) sprintf("%d-%d", min(years), max(years)),
@@ -314,7 +314,7 @@ time_levels <- c(
 
 current_concentration <- concentration_summary |>
   filter(.data$scenario == "current") |>
-  mutate(time_label = "Observed")
+  mutate(time_label = "Observed climate")
 
 future_concentration <- concentration_summary |>
   filter(.data$scenario %in% cfg$future_scenarios) |>

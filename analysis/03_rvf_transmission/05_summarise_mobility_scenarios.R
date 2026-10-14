@@ -40,7 +40,7 @@ profile_order <- c(
 profile_labels <- c(
   peridomestic_dominant = "Village-associated",
   balanced = "Balanced",
-  grazing_floodplain_dominant = "Grazing/floodplain",
+  grazing_floodplain_dominant = "Shared grazing/floodplain",
   resource_edge_dominant = "Resource-edge",
   waterpoint_extreme = "Waterpoint-extreme"
 )
