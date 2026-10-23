@@ -1,10 +1,10 @@
 # Reproducing the analysis
 
-This repository reproduces the figures and tables of *Where livestock encounter
-vectors determines climate-driven Rift Valley fever risk*, for Serengeti
-District, Tanzania. The analysis runs in four stages, each in its own folder
-under `analysis/`. A final step gathers the figures under their publication
-names and regenerates the Supplement tables.
+This repository reproduces the figures and tables of *Interacting effects of
+climate on vectors and livestock movements drive Rift Valley fever infection
+risk*, for Serengeti District, Tanzania. The analysis runs in four stages, each
+in its own folder under `analysis/`. A final step gathers the figures under
+their publication names and regenerates the Supplement tables.
 
 Run every command below from the project root.
 

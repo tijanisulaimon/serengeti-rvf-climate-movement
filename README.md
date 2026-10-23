@@ -1,4 +1,4 @@
-# Where livestock encounter vectors determines climate-driven Rift Valley fever risk
+# Interacting effects of climate on vectors and livestock movements drive Rift Valley fever infection risk
 
 Code for the paper of the same title. The livestock movement data come from
 participatory mapping and cannot be shared publicly, so only the climate and
