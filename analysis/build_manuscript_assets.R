@@ -236,8 +236,6 @@ supplementary_asset_map <- tribble(
   file.path(supplementary_figure_dir, "rvf_rainfall_capacity_responses.pdf"),
   here::here("analysis", "03_rvf_transmission", "outputs", "figures", "model_implied_vector_seasonality.pdf"),
   file.path(supplementary_figure_dir, "rvf_vector_seasonality.pdf"),
-  here::here("analysis", "03_rvf_transmission", "outputs", "figures", "03_pmobile_contrasting_profiles_relative_incidence.png"),
-  file.path(supplementary_figure_dir, "rvf_mobility_contrasting_profiles.png"),
   here::here("analysis", "03_rvf_transmission", "outputs", "figures", "07_seasonal_infectious_cycle.png"),
   file.path(supplementary_figure_dir, "rvf_seasonal_timing.png"),
   here::here("analysis", "03_rvf_transmission", "outputs", "figures", "04_rainfall_response_sensitivity.png"),
